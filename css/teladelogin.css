@@ -1,0 +1,116 @@
+*{
+	
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background: #2d1300;
+	background-image: url(imagens/imagemlogin.jpg);
+	
+
+  }
+
+ 
+
+  .login-container {
+
+    background-color: #b2a085;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    padding: 50px;
+
+    width: 250px;
+
+  }
+
+h1{
+	color:"pink";
+}
+ 
+
+  h2 {
+
+    margin-bottom: 40px;
+
+  }
+
+ 
+
+  .login-form label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+  }
+
+ 
+
+  .login-form input {
+
+    width: 100%;
+
+    padding: 8px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 3px;
+
+  }
+
+ 
+
+  .login-form button {
+
+    background-color: #007bff;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+	
+	margin-left: 8px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    width: 100%;
+
+  }
+
+ 
+
+  .login-form button:hover {
+
+    background-color: #0056b3;
+
+  }
+
+  .login-form a {
+     color:#777;
+  }
+
+  .login-form a:hover {
+    color:#777;
+ }
